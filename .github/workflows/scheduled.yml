@@ -25,7 +25,7 @@ jobs:
         curl https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip -O
         unzip 13100766-eng.zip
         mv 13100766.csv 13100766__latest.csv
-        mv 13100766_MetaData.csv__latest.csv
+        mv 13100766_MetaData.csv 13100766_MetaData.csv__latest.csv
         rm 13100766-eng.zip
     - name: Commit and push if it changed
       run: |-
