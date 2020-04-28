@@ -14,10 +14,12 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl https://c19downloads.azureedge.net/downloads/data/data_latest.json | jq . > data_latest.json
-        curl https://c19pub.azureedge.net/utlas.geojson | gunzip | jq . > utlas.geojson
-        curl https://c19pub.azureedge.net/countries.geojson | gunzip | jq . > countries.geojson
-        curl https://c19pub.azureedge.net/regions.geojson | gunzip | jq . > regions.geojson
+        curl https://health-infobase.canada.ca/src/data/covidLive/covid19.csv > covid19__latest.csv
+        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv > covid19-epiSummary-casesovertime__latest.csv
+        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv > covid19-epiSummary-agegroups2__latest.csv
+        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv > covid19-epiSummary-probableexposure__latest.csv
+        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv > covid19-epiSummary-symptoms__latest.csv
+        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv > covid19-epiSummary-severity__latest.csv
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
