@@ -20,6 +20,13 @@ jobs:
         curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv > covid19-epiSummary-probableexposure__latest.csv
         curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv > covid19-epiSummary-symptoms__latest.csv
         curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv > covid19-epiSummary-severity__latest.csv
+    - name: Fetch table 13-10-0766-01
+      run: |-
+        curl https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip -O
+        unzip 13100766-eng.zip
+        mv 13100766.csv 13100766__latest.csv
+        mv 13100766_MetaData.csv 13100766_MetaData.csv__latest.csv
+        rm 13100766-eng.zip
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
