@@ -28,12 +28,12 @@ jobs:
         pip install -r requirements.txt
     - name: Fetch latest data
       run: |-
-        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19.csv -o covid19__latest.csv 
-        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv -o covid19-epiSummary-casesovertime__latest.csv 
-        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv -o covid19-epiSummary-agegroups2__latest.csv 
-        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv -o covid19-epiSummary-probableexposure__latest.csv
-        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv -o covid19-epiSummary-symptoms__latest.csv 
-        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv -o covid19-epiSummary-severity__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19.csv -o CA__covid19__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv -o CA__covid19-epiSummary-casesovertime__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv -o CA__covid19-epiSummary-agegroups2__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv -o CA__covid19-epiSummary-probableexposure__latest.csv
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv -o CA__covid19-epiSummary-symptoms__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv -o CA__covid19-epiSummary-severity__latest.csv 
         conditional-get -v http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv -o BC__BCCDC_COVID19_Dashboard_Case_Details__latest.csv 
         conditional-get -v http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv -o BC__BCCDC_COVID19_Dashboard_Lab_Information__latest.csv
         conditional-get -v https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv -o ON__covidtesting__latest.csv 
@@ -47,8 +47,8 @@ jobs:
       run: |-
         conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip
         unzip 13100766-eng.zip
-        mv 13100766.csv 13100766__latest.csv
-        mv 13100766_MetaData.csv 13100766_MetaData.csv__latest.csv
+        mv 13100766.csv CA__13100766__latest.csv
+        mv 13100766_MetaData.csv CA__13100766_MetaData.csv__latest.csv
         rm 13100766-eng.zip
     - name: Commit and push if it changed
       run: |-
