@@ -1,0 +1,598 @@
+{
+  "objectIdFieldName" : "ObjectId", 
+  "uniqueIdField" : 
+  {
+    "name" : "ObjectId", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "", 
+  "fields" : [
+    {
+      "name" : "Date", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "Date", 
+      "sqlType" : "sqlTypeTimestamp2", 
+      "length" : 8, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Daily_Cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Daily Cases", 
+      "sqlType" : "sqlTypeInteger", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Cumulative_Cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Cumulative Cases", 
+      "sqlType" : "sqlTypeInteger", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Active_Cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Active Cases", 
+      "sqlType" : "sqlTypeInteger", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Recoveries", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Recoveries", 
+      "sqlType" : "sqlTypeInteger", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Deaths", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Deaths", 
+      "sqlType" : "sqlTypeInteger", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ObjectId", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "ObjectId", 
+      "sqlType" : "sqlTypeInteger", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "Date" : 1584075600000, 
+        "Daily_Cases" : 2, 
+        "Cumulative_Cases" : 2, 
+        "Active_Cases" : 2, 
+        "Recoveries" : 0, 
+        "Deaths" : 0, 
+        "ObjectId" : 1
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584162000000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 3, 
+        "Active_Cases" : 3, 
+        "Recoveries" : 0, 
+        "Deaths" : 0, 
+        "ObjectId" : 2
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584248400000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 3, 
+        "Active_Cases" : 3, 
+        "Recoveries" : 0, 
+        "Deaths" : 0, 
+        "ObjectId" : 3
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584334800000, 
+        "Daily_Cases" : 3, 
+        "Cumulative_Cases" : 6, 
+        "Active_Cases" : 6, 
+        "Recoveries" : 0, 
+        "Deaths" : 0, 
+        "ObjectId" : 4
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584421200000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 7, 
+        "Active_Cases" : 6, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 5
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584507600000, 
+        "Daily_Cases" : 8, 
+        "Cumulative_Cases" : 15, 
+        "Active_Cases" : 14, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 6
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584594000000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 16, 
+        "Active_Cases" : 15, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 7
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584680400000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 17, 
+        "Active_Cases" : 16, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 8
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584766800000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 17, 
+        "Active_Cases" : 16, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 9
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584853200000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 18, 
+        "Active_Cases" : 17, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 10
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1584939600000, 
+        "Daily_Cases" : 3, 
+        "Cumulative_Cases" : 21, 
+        "Active_Cases" : 19, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 11
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585026000000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 22, 
+        "Active_Cases" : 20, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 12
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585112400000, 
+        "Daily_Cases" : 6, 
+        "Cumulative_Cases" : 28, 
+        "Active_Cases" : 35, 
+        "Recoveries" : 1, 
+        "Deaths" : 0, 
+        "ObjectId" : 13
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585198800000, 
+        "Daily_Cases" : 9, 
+        "Cumulative_Cases" : 37, 
+        "Active_Cases" : 37, 
+        "Recoveries" : 1, 
+        "Deaths" : 1, 
+        "ObjectId" : 14
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585285200000, 
+        "Daily_Cases" : 27, 
+        "Cumulative_Cases" : 64, 
+        "Active_Cases" : 60, 
+        "Recoveries" : 3, 
+        "Deaths" : 1, 
+        "ObjectId" : 15
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585371600000, 
+        "Daily_Cases" : 10, 
+        "Cumulative_Cases" : 74, 
+        "Active_Cases" : 69, 
+        "Recoveries" : 2, 
+        "Deaths" : 1, 
+        "ObjectId" : 16
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585458000000, 
+        "Daily_Cases" : 23, 
+        "Cumulative_Cases" : 97, 
+        "Active_Cases" : 93, 
+        "Recoveries" : 2, 
+        "Deaths" : 1, 
+        "ObjectId" : 17
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585544400000, 
+        "Daily_Cases" : 9, 
+        "Cumulative_Cases" : 106, 
+        "Active_Cases" : 98, 
+        "Recoveries" : 4, 
+        "Deaths" : 1, 
+        "ObjectId" : 18
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585630800000, 
+        "Daily_Cases" : 27, 
+        "Cumulative_Cases" : 133, 
+        "Active_Cases" : 122, 
+        "Recoveries" : 4, 
+        "Deaths" : 1, 
+        "ObjectId" : 19
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585717200000, 
+        "Daily_Cases" : 33, 
+        "Cumulative_Cases" : 166, 
+        "Active_Cases" : 155, 
+        "Recoveries" : 11, 
+        "Deaths" : 1, 
+        "ObjectId" : 20
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585803600000, 
+        "Daily_Cases" : 16, 
+        "Cumulative_Cases" : 182, 
+        "Active_Cases" : 169, 
+        "Recoveries" : 11, 
+        "Deaths" : 2, 
+        "ObjectId" : 21
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585890000000, 
+        "Daily_Cases" : 10, 
+        "Cumulative_Cases" : 192, 
+        "Active_Cases" : 175, 
+        "Recoveries" : 17, 
+        "Deaths" : 2, 
+        "ObjectId" : 22
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1585976400000, 
+        "Daily_Cases" : 11, 
+        "Cumulative_Cases" : 203, 
+        "Active_Cases" : 184, 
+        "Recoveries" : 17, 
+        "Deaths" : 2, 
+        "ObjectId" : 23
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586062800000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 204, 
+        "Active_Cases" : 185, 
+        "Recoveries" : 17, 
+        "Deaths" : 2, 
+        "ObjectId" : 24
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586149200000, 
+        "Daily_Cases" : 13, 
+        "Cumulative_Cases" : 217, 
+        "Active_Cases" : 193, 
+        "Recoveries" : 21, 
+        "Deaths" : 3, 
+        "ObjectId" : 25
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586235600000, 
+        "Daily_Cases" : 3, 
+        "Cumulative_Cases" : 220, 
+        "Active_Cases" : 149, 
+        "Recoveries" : 69, 
+        "Deaths" : 3, 
+        "ObjectId" : 26
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586322000000, 
+        "Daily_Cases" : 2, 
+        "Cumulative_Cases" : 222, 
+        "Active_Cases" : 145, 
+        "Recoveries" : 76, 
+        "Deaths" : 3, 
+        "ObjectId" : 27
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586408400000, 
+        "Daily_Cases" : 6, 
+        "Cumulative_Cases" : 228, 
+        "Active_Cases" : 134, 
+        "Recoveries" : 92, 
+        "Deaths" : 4, 
+        "ObjectId" : 28
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586494800000, 
+        "Daily_Cases" : 12, 
+        "Cumulative_Cases" : 240, 
+        "Active_Cases" : 142, 
+        "Recoveries" : 96, 
+        "Deaths" : 4, 
+        "ObjectId" : 29
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586581200000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 241, 
+        "Active_Cases" : 143, 
+        "Recoveries" : 96, 
+        "Deaths" : 4, 
+        "ObjectId" : 30
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586667600000, 
+        "Daily_Cases" : 2, 
+        "Cumulative_Cases" : 243, 
+        "Active_Cases" : 143, 
+        "Recoveries" : 99, 
+        "Deaths" : 4, 
+        "ObjectId" : 31
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586754000000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 243, 
+        "Active_Cases" : 143, 
+        "Recoveries" : 99, 
+        "Deaths" : 4, 
+        "ObjectId" : 32
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586840400000, 
+        "Daily_Cases" : 3, 
+        "Cumulative_Cases" : 246, 
+        "Active_Cases" : 133, 
+        "Recoveries" : 108, 
+        "Deaths" : 5, 
+        "ObjectId" : 33
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1586926800000, 
+        "Daily_Cases" : 3, 
+        "Cumulative_Cases" : 249, 
+        "Active_Cases" : 124, 
+        "Recoveries" : 121, 
+        "Deaths" : 5, 
+        "ObjectId" : 34
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587013200000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 250, 
+        "Active_Cases" : 113, 
+        "Recoveries" : 132, 
+        "Deaths" : 5, 
+        "ObjectId" : 35
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587099600000, 
+        "Daily_Cases" : 5, 
+        "Cumulative_Cases" : 255, 
+        "Active_Cases" : 108, 
+        "Recoveries" : 140, 
+        "Deaths" : 5, 
+        "ObjectId" : 36
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587186000000, 
+        "Daily_Cases" : 3, 
+        "Cumulative_Cases" : 258, 
+        "Active_Cases" : 105, 
+        "Recoveries" : 143, 
+        "Deaths" : 5, 
+        "ObjectId" : 37
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587272400000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 259, 
+        "Active_Cases" : 104, 
+        "Recoveries" : 144, 
+        "Deaths" : 6, 
+        "ObjectId" : 38
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587358800000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 260, 
+        "Active_Cases" : 99, 
+        "Recoveries" : 150, 
+        "Deaths" : 6, 
+        "ObjectId" : 39
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587445200000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 260, 
+        "Active_Cases" : 97, 
+        "Recoveries" : 154, 
+        "Deaths" : 6, 
+        "ObjectId" : 40
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587531600000, 
+        "Daily_Cases" : 4, 
+        "Cumulative_Cases" : 264, 
+        "Active_Cases" : 82, 
+        "Recoveries" : 174, 
+        "Deaths" : 6, 
+        "ObjectId" : 41
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587618000000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 265, 
+        "Active_Cases" : 61, 
+        "Recoveries" : 196, 
+        "Deaths" : 6, 
+        "ObjectId" : 42
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587704400000, 
+        "Daily_Cases" : 2, 
+        "Cumulative_Cases" : 267, 
+        "Active_Cases" : 61, 
+        "Recoveries" : 196, 
+        "Deaths" : 6, 
+        "ObjectId" : 43
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587790800000, 
+        "Daily_Cases" : 4, 
+        "Cumulative_Cases" : 271, 
+        "Active_Cases" : 62, 
+        "Recoveries" : 199, 
+        "Deaths" : 6, 
+        "ObjectId" : 44
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587877200000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 272, 
+        "Active_Cases" : 66, 
+        "Recoveries" : 199, 
+        "Deaths" : 6, 
+        "ObjectId" : 45
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1587963600000, 
+        "Daily_Cases" : 1, 
+        "Cumulative_Cases" : 273, 
+        "Active_Cases" : 61, 
+        "Recoveries" : 205, 
+        "Deaths" : 6, 
+        "ObjectId" : 46
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1588050000000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 273, 
+        "Active_Cases" : 57, 
+        "Recoveries" : 209, 
+        "Deaths" : 6, 
+        "ObjectId" : 47
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1588136400000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 273, 
+        "Active_Cases" : 54, 
+        "Recoveries" : 213, 
+        "Deaths" : 6, 
+        "ObjectId" : 48
+      }
+    }
+  ]
+}
