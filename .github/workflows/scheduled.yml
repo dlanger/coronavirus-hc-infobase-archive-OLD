@@ -12,17 +12,31 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - uses: actions/cache@v1
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
     - name: Fetch latest data
       run: |-
-        curl https://health-infobase.canada.ca/src/data/covidLive/covid19.csv > covid19__latest.csv
-        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv > covid19-epiSummary-casesovertime__latest.csv
-        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv > covid19-epiSummary-agegroups2__latest.csv
-        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv > covid19-epiSummary-probableexposure__latest.csv
-        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv > covid19-epiSummary-symptoms__latest.csv
-        curl https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv > covid19-epiSummary-severity__latest.csv
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19.csv -o covid19__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv -o covid19-epiSummary-casesovertime__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv -o covid19-epiSummary-agegroups2__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv -o covid19-epiSummary-probableexposure__latest.csv
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv -o covid19-epiSummary-symptoms__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv -o covid19-epiSummary-severity__latest.csv 
     - name: Fetch table 13-10-0766-01
       run: |-
-        curl https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip -O
+        conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip
         unzip 13100766-eng.zip
         mv 13100766.csv 13100766__latest.csv
         mv 13100766_MetaData.csv 13100766_MetaData.csv__latest.csv
