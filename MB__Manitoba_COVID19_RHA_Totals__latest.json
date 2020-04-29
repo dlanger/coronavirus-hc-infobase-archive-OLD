@@ -1,0 +1,105 @@
+{
+  "objectIdFieldName" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "", 
+  "geometryType" : "esriGeometryPolygon", 
+  "spatialReference" : {
+    "wkid" : 102100, 
+    "latestWkid" : 3857
+  }, 
+  "fields" : [
+    {
+      "name" : "RHACODE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "RHA Code", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 12, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "RHAName", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "RHA Name", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Lab_Confirmed", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Lab Confirmed", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Probable", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Probable", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Total_Cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Total Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "RHACODE" : "01", 
+        "RHAName" : "Winnipeg", 
+        "Lab_Confirmed" : 201, 
+        "Probable" : 5, 
+        "Total_Cases" : 206
+      }
+    }, 
+    {
+      "attributes" : {
+        "RHACODE" : "02", 
+        "RHAName" : "Prairie Mountain Health", 
+        "Lab_Confirmed" : 15, 
+        "Probable" : 0, 
+        "Total_Cases" : 15
+      }
+    }, 
+    {
+      "attributes" : {
+        "RHACODE" : "03", 
+        "RHAName" : "Interlake-Eastern", 
+        "Lab_Confirmed" : 17, 
+        "Probable" : 1, 
+        "Total_Cases" : 18
+      }
+    }, 
+    {
+      "attributes" : {
+        "RHACODE" : "05", 
+        "RHAName" : "Southern Health-Santé Sud", 
+        "Lab_Confirmed" : 26, 
+        "Probable" : 5, 
+        "Total_Cases" : 31
+      }
+    }, 
+    {
+      "attributes" : {
+        "RHACODE" : "04", 
+        "RHAName" : "Northern", 
+        "Lab_Confirmed" : 3, 
+        "Probable" : 0, 
+        "Total_Cases" : 3
+      }
+    }
+  ]
+}
