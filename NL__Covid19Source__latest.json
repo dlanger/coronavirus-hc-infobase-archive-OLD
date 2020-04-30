@@ -1,0 +1,67 @@
+{
+  "objectIdFieldName" : "ObjectId", 
+  "uniqueIdField" : 
+  {
+    "name" : "ObjectId", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "GlobalID", 
+  "geometryType" : "esriGeometryPoint", 
+  "spatialReference" : {
+    "wkid" : 102100, 
+    "latestWkid" : 3857
+  }, 
+  "fields" : [
+    {
+      "name" : "travel_related", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Travel related", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "locally_aquired_epidemiological", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Locally Aquired - Epidemiologically Linked", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "locally_acquired_unknown_source", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Locally Acquired - Unknown Source", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "pending", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Pending", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "other", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Other", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "travel_related" : 48, 
+        "locally_aquired_epidemiological" : 169, 
+        "locally_acquired_unknown_source" : 6, 
+        "pending" : 1, 
+        "other" : 0
+      }
+    }
+  ]
+}
