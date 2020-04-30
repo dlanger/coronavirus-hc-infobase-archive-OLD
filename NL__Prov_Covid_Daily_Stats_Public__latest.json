@@ -1,0 +1,813 @@
+{
+  "objectIdFieldName" : "objectid", 
+  "uniqueIdField" : 
+  {
+    "name" : "objectid", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "globalid", 
+  "geometryType" : "esriGeometryPoint", 
+  "spatialReference" : {
+    "wkid" : 4326, 
+    "latestWkid" : 4326
+  }, 
+  "fields" : [
+    {
+      "name" : "objectid", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "ObjectID", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "globalid", 
+      "type" : "esriFieldTypeGlobalID", 
+      "alias" : "GlobalID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 38, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "date_of_update", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "Date of Update", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_cases", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "new_provincial_cases", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "New Provincial Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_recovered", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total Recovered", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "currently_hospitalized", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Currently Hospitalized", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "currently_in_icu", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Currently in ICU", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_deaths", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total Deaths", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "active_cases", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Active Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_tests_delivered", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total Tests Delivered", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "objectid" : 1, 
+        "globalid" : "1cc0031c-9db1-4fd8-b488-44082e2f0c67", 
+        "date_of_update" : 1585319400000, 
+        "total_cases" : 102, 
+        "new_provincial_cases" : 20, 
+        "total_recovered" : 1, 
+        "currently_hospitalized" : 1, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 101, 
+        "total_tests_delivered" : 1684
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 2, 
+        "globalid" : "83b69bd3-5b32-4ea1-9a41-452db29e2bf0", 
+        "date_of_update" : 1585405800000, 
+        "total_cases" : 120, 
+        "new_provincial_cases" : 18, 
+        "total_recovered" : 4, 
+        "currently_hospitalized" : 2, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 116, 
+        "total_tests_delivered" : 1927
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 3, 
+        "globalid" : "4c1d2249-49c1-4b8e-a579-b1ffd3e2e476", 
+        "date_of_update" : 1585492200000, 
+        "total_cases" : 135, 
+        "new_provincial_cases" : 15, 
+        "total_recovered" : 4, 
+        "currently_hospitalized" : 7, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 131, 
+        "total_tests_delivered" : 2107
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 4, 
+        "globalid" : "fbc1311c-c4d2-476d-96f3-f5ce2681eb7b", 
+        "date_of_update" : 1585578600000, 
+        "total_cases" : 148, 
+        "new_provincial_cases" : 13, 
+        "total_recovered" : 7, 
+        "currently_hospitalized" : 9, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 1, 
+        "active_cases" : 140, 
+        "total_tests_delivered" : 2332
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 5, 
+        "globalid" : "769f394b-020a-4bea-b1b7-82fc029aea3e", 
+        "date_of_update" : 1585665000000, 
+        "total_cases" : 152, 
+        "new_provincial_cases" : 4, 
+        "total_recovered" : 7, 
+        "currently_hospitalized" : 11, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 1, 
+        "active_cases" : 144, 
+        "total_tests_delivered" : 2575
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 6, 
+        "globalid" : "af2e9f5e-675a-4995-8adb-6f25736fe0ad", 
+        "date_of_update" : 1585751400000, 
+        "total_cases" : 175, 
+        "new_provincial_cases" : 23, 
+        "total_recovered" : 10, 
+        "currently_hospitalized" : 15, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 1, 
+        "active_cases" : 164, 
+        "total_tests_delivered" : 2816
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 7, 
+        "globalid" : "25ae0714-2104-4eb4-b5c1-9ca3b69099b6", 
+        "date_of_update" : 1585837800000, 
+        "total_cases" : 183, 
+        "new_provincial_cases" : 8, 
+        "total_recovered" : 10, 
+        "currently_hospitalized" : 11, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 1, 
+        "active_cases" : 172, 
+        "total_tests_delivered" : 2929
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 8, 
+        "globalid" : "50d0a98c-6037-4112-8ab5-1fe0aceccf9e", 
+        "date_of_update" : 1585924200000, 
+        "total_cases" : 195, 
+        "new_provincial_cases" : 12, 
+        "total_recovered" : 11, 
+        "currently_hospitalized" : 11, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 1, 
+        "active_cases" : 183, 
+        "total_tests_delivered" : 3201
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 9, 
+        "globalid" : "a3d193b1-76a0-4a77-8a4e-516141a5007e", 
+        "date_of_update" : 1586010600000, 
+        "total_cases" : 203, 
+        "new_provincial_cases" : 8, 
+        "total_recovered" : 18, 
+        "currently_hospitalized" : 11, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 1, 
+        "active_cases" : 184, 
+        "total_tests_delivered" : 3386
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 10, 
+        "globalid" : "1358aec7-7d5c-4e24-8432-e17a791f857f", 
+        "date_of_update" : 1586097000000, 
+        "total_cases" : 217, 
+        "new_provincial_cases" : 14, 
+        "total_recovered" : 28, 
+        "currently_hospitalized" : 10, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 1, 
+        "active_cases" : 188, 
+        "total_tests_delivered" : 3565
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 11, 
+        "globalid" : "ce0092bf-730b-4b2b-8b0c-2627ce99c9a5", 
+        "date_of_update" : 1586183400000, 
+        "total_cases" : 226, 
+        "new_provincial_cases" : 9, 
+        "total_recovered" : 32, 
+        "currently_hospitalized" : 8, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 2, 
+        "active_cases" : 192, 
+        "total_tests_delivered" : 3776
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 12, 
+        "globalid" : "7a70097c-61ec-41e1-9f37-12c34d051fbf", 
+        "date_of_update" : 1586269800000, 
+        "total_cases" : 228, 
+        "new_provincial_cases" : 2, 
+        "total_recovered" : 49, 
+        "currently_hospitalized" : 7, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 2, 
+        "active_cases" : 177, 
+        "total_tests_delivered" : 3958
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 13, 
+        "globalid" : "41083624-3be2-43d9-b021-a9d3b079c52e", 
+        "date_of_update" : 1586356200000, 
+        "total_cases" : 232, 
+        "new_provincial_cases" : 4, 
+        "total_recovered" : 74, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 2, 
+        "active_cases" : 156, 
+        "total_tests_delivered" : 4149
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 14, 
+        "globalid" : "a2e4db32-a17a-4914-a282-496e06423bda", 
+        "date_of_update" : 1586442600000, 
+        "total_cases" : 236, 
+        "new_provincial_cases" : 4, 
+        "total_recovered" : 96, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 137, 
+        "total_tests_delivered" : 4390
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 15, 
+        "globalid" : "ae04eae7-8720-4bb7-bdb3-36029337c166", 
+        "date_of_update" : 1585270800000, 
+        "total_cases" : 82, 
+        "new_provincial_cases" : 15, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 82, 
+        "total_tests_delivered" : 1491
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 16, 
+        "globalid" : "483b6c90-b293-4d28-a441-d395e614b919", 
+        "date_of_update" : 1585184400000, 
+        "total_cases" : 67, 
+        "new_provincial_cases" : 32, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 67, 
+        "total_tests_delivered" : 1336
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 17, 
+        "globalid" : "2489758c-e03b-4791-a973-2faeb1fae579", 
+        "date_of_update" : 1585098000000, 
+        "total_cases" : 35, 
+        "new_provincial_cases" : 11, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 35, 
+        "total_tests_delivered" : 1131
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 18, 
+        "globalid" : "5f3ecf28-7ae5-4664-89a5-54bc927be9ce", 
+        "date_of_update" : 1585011600000, 
+        "total_cases" : 24, 
+        "new_provincial_cases" : 15, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 24, 
+        "total_tests_delivered" : 938
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 19, 
+        "globalid" : "95f8470d-c883-4e05-93d9-2ae2c8cd7a39", 
+        "date_of_update" : 1584925200000, 
+        "total_cases" : 9, 
+        "new_provincial_cases" : 3, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 9, 
+        "total_tests_delivered" : 970
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 20, 
+        "globalid" : "106a0516-00fa-435d-8057-e342393a5415", 
+        "date_of_update" : 1584838800000, 
+        "total_cases" : 6, 
+        "new_provincial_cases" : 2, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 6, 
+        "total_tests_delivered" : 901
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 21, 
+        "globalid" : "aeee00f2-4aad-40d3-b595-88c887d4283e", 
+        "date_of_update" : 1584752400000, 
+        "total_cases" : 4, 
+        "new_provincial_cases" : 1, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 4, 
+        "total_tests_delivered" : 791
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 22, 
+        "globalid" : "de64ecac-2f4a-459d-8d0e-9bcdbe6ad3fe", 
+        "date_of_update" : 1584666000000, 
+        "total_cases" : 3, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_tests_delivered" : 684
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 23, 
+        "globalid" : "c33ab915-5db4-4ec0-8f6c-dc2d68453aeb", 
+        "date_of_update" : 1584579600000, 
+        "total_cases" : 3, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_tests_delivered" : 590
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 24, 
+        "globalid" : "717f3084-1b97-4933-bc1e-a40fb269bb2c", 
+        "date_of_update" : 1584493200000, 
+        "total_cases" : 3, 
+        "new_provincial_cases" : 2, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_tests_delivered" : 494
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 25, 
+        "globalid" : "1c42d5ee-dd5d-48b9-8302-68382b4b1718", 
+        "date_of_update" : 1584406800000, 
+        "total_cases" : 1, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_tests_delivered" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 26, 
+        "globalid" : "408a5cbe-3fa4-4115-bfe8-1f3a8521a0fb", 
+        "date_of_update" : 1584320400000, 
+        "total_cases" : 1, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_tests_delivered" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 27, 
+        "globalid" : "58c17151-2947-4ea0-9083-31580c05944b", 
+        "date_of_update" : 1584234000000, 
+        "total_cases" : 1, 
+        "new_provincial_cases" : 1, 
+        "total_recovered" : 0, 
+        "currently_hospitalized" : 0, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_tests_delivered" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 28, 
+        "globalid" : "d31f465c-f2ff-4b72-b515-d4449227111a", 
+        "date_of_update" : 1586529000000, 
+        "total_cases" : 239, 
+        "new_provincial_cases" : 3, 
+        "total_recovered" : 103, 
+        "currently_hospitalized" : 7, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 133, 
+        "total_tests_delivered" : 4520
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 29, 
+        "globalid" : "7d7e6081-25e6-43e2-8e7b-e619ff4ebf76", 
+        "date_of_update" : 1586615400000, 
+        "total_cases" : 241, 
+        "new_provincial_cases" : 2, 
+        "total_recovered" : 120, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 118, 
+        "total_tests_delivered" : 4726
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 30, 
+        "globalid" : "3a8fed71-bb2f-4303-b2dd-72b229ac0035", 
+        "date_of_update" : 1586701800000, 
+        "total_cases" : 242, 
+        "new_provincial_cases" : 1, 
+        "total_recovered" : 129, 
+        "currently_hospitalized" : 7, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 110, 
+        "total_tests_delivered" : 4812
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 31, 
+        "globalid" : "4dc5413f-6af8-4caf-ad62-70031c24a1c9", 
+        "date_of_update" : 1586788200000, 
+        "total_cases" : 244, 
+        "new_provincial_cases" : 2, 
+        "total_recovered" : 133, 
+        "currently_hospitalized" : 8, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 108, 
+        "total_tests_delivered" : 4907
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 32, 
+        "globalid" : "d12499f7-97c6-40b5-81dd-0c8c7738d8e2", 
+        "date_of_update" : 1586874600000, 
+        "total_cases" : 244, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 149, 
+        "currently_hospitalized" : 8, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 92, 
+        "total_tests_delivered" : 5021
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 33, 
+        "globalid" : "cbdd5561-6905-4b6d-b91e-7bdc0c27aeae", 
+        "date_of_update" : 1586961000000, 
+        "total_cases" : 247, 
+        "new_provincial_cases" : 3, 
+        "total_recovered" : 159, 
+        "currently_hospitalized" : 8, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 85, 
+        "total_tests_delivered" : 5166
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 34, 
+        "globalid" : "5045a8c7-56c5-4167-b6aa-00aba9a7e12e", 
+        "date_of_update" : 1587047400000, 
+        "total_cases" : 252, 
+        "new_provincial_cases" : 5, 
+        "total_recovered" : 170, 
+        "currently_hospitalized" : 7, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 79, 
+        "total_tests_delivered" : 5370
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 35, 
+        "globalid" : "89025057-6105-453f-b380-f6c4bc013c12", 
+        "date_of_update" : 1587133800000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 4, 
+        "total_recovered" : 176, 
+        "currently_hospitalized" : 7, 
+        "currently_in_icu" : null, 
+        "total_deaths" : 3, 
+        "active_cases" : 77, 
+        "total_tests_delivered" : 5585
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 36, 
+        "globalid" : "a345cc68-1080-4b67-b411-1d0292a29305", 
+        "date_of_update" : 1587220200000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 189, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : 3, 
+        "total_deaths" : 3, 
+        "active_cases" : 64, 
+        "total_tests_delivered" : 5871
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 37, 
+        "globalid" : "157b9060-bdd6-4880-86a5-951ca533907c", 
+        "date_of_update" : 1587306600000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 191, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : 3, 
+        "total_deaths" : 3, 
+        "active_cases" : 62, 
+        "total_tests_delivered" : 6144
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 38, 
+        "globalid" : "7448657b-84f6-4da2-8bec-2e36910201fc", 
+        "date_of_update" : 1587393000000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 191, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : 3, 
+        "total_deaths" : 3, 
+        "active_cases" : 62, 
+        "total_tests_delivered" : 6249
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 39, 
+        "globalid" : "30c7b072-49a3-43de-8755-42dcce609721", 
+        "date_of_update" : 1587479400000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 194, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 59, 
+        "total_tests_delivered" : 6431
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 40, 
+        "globalid" : "2c11979e-488d-41de-8ccb-625013c4e82f", 
+        "date_of_update" : 1587565800000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 199, 
+        "currently_hospitalized" : 6, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 54, 
+        "total_tests_delivered" : 6662
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 41, 
+        "globalid" : "b8c47115-fe85-4378-8fe5-8e13c7511aec", 
+        "date_of_update" : 1587652200000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 205, 
+        "currently_hospitalized" : 5, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 48, 
+        "total_tests_delivered" : 6902
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 42, 
+        "globalid" : "fe21ceb7-bf70-4c12-8481-78cb3fed8148", 
+        "date_of_update" : 1587738600000, 
+        "total_cases" : 256, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 207, 
+        "currently_hospitalized" : 5, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 46, 
+        "total_tests_delivered" : 7134
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 44, 
+        "globalid" : "233bb322-7e70-47e9-844e-2a926e573808", 
+        "date_of_update" : 1587825000000, 
+        "total_cases" : 257, 
+        "new_provincial_cases" : 1, 
+        "total_recovered" : 208, 
+        "currently_hospitalized" : 5, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 46, 
+        "total_tests_delivered" : 7332
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 45, 
+        "globalid" : "b92980a2-ad8a-41f3-8e38-ef55acf0d57e", 
+        "date_of_update" : 1587911400000, 
+        "total_cases" : 258, 
+        "new_provincial_cases" : 1, 
+        "total_recovered" : 219, 
+        "currently_hospitalized" : 5, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 36, 
+        "total_tests_delivered" : 7477
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 46, 
+        "globalid" : "37c547de-b907-4838-8824-3aedc92b1f10", 
+        "date_of_update" : 1587997800000, 
+        "total_cases" : 258, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 221, 
+        "currently_hospitalized" : 5, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 34, 
+        "total_tests_delivered" : 7622
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 47, 
+        "globalid" : "947d1345-93aa-44a4-82d0-1bead10d5b60", 
+        "date_of_update" : 1588084200000, 
+        "total_cases" : 258, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 222, 
+        "currently_hospitalized" : 4, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 33, 
+        "total_tests_delivered" : 7955
+      }
+    }, 
+    {
+      "attributes" : {
+        "objectid" : 48, 
+        "globalid" : "80f0e608-c005-413e-8b9a-8b5674e01cbe", 
+        "date_of_update" : 1588170600000, 
+        "total_cases" : 258, 
+        "new_provincial_cases" : 0, 
+        "total_recovered" : 225, 
+        "currently_hospitalized" : 4, 
+        "currently_in_icu" : 2, 
+        "total_deaths" : 3, 
+        "active_cases" : 30, 
+        "total_tests_delivered" : 8220
+      }
+    }
+  ]
+}
