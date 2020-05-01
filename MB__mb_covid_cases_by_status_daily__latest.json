@@ -542,8 +542,8 @@
     {
       "attributes" : {
         "Date" : 1587790800000, 
-        "Daily_Cases" : 4, 
-        "Cumulative_Cases" : 271, 
+        "Daily_Cases" : 5, 
+        "Cumulative_Cases" : 272, 
         "Active_Cases" : 62, 
         "Recoveries" : 199, 
         "Deaths" : 6, 
@@ -554,7 +554,7 @@
       "attributes" : {
         "Date" : 1587877200000, 
         "Daily_Cases" : 1, 
-        "Cumulative_Cases" : 272, 
+        "Cumulative_Cases" : 273, 
         "Active_Cases" : 66, 
         "Recoveries" : 199, 
         "Deaths" : 6, 
@@ -565,7 +565,7 @@
       "attributes" : {
         "Date" : 1587963600000, 
         "Daily_Cases" : 2, 
-        "Cumulative_Cases" : 274, 
+        "Cumulative_Cases" : 275, 
         "Active_Cases" : 61, 
         "Recoveries" : 205, 
         "Deaths" : 6, 
@@ -576,7 +576,7 @@
       "attributes" : {
         "Date" : 1588050000000, 
         "Daily_Cases" : 0, 
-        "Cumulative_Cases" : 274, 
+        "Cumulative_Cases" : 275, 
         "Active_Cases" : 57, 
         "Recoveries" : 209, 
         "Deaths" : 6, 
@@ -587,7 +587,7 @@
       "attributes" : {
         "Date" : 1588136400000, 
         "Daily_Cases" : 1, 
-        "Cumulative_Cases" : 275, 
+        "Cumulative_Cases" : 276, 
         "Active_Cases" : 54, 
         "Recoveries" : 213, 
         "Deaths" : 6, 
@@ -597,12 +597,23 @@
     {
       "attributes" : {
         "Date" : 1588222800000, 
-        "Daily_Cases" : 0, 
-        "Cumulative_Cases" : 275, 
+        "Daily_Cases" : 3, 
+        "Cumulative_Cases" : 279, 
         "Active_Cases" : 49, 
         "Recoveries" : 220, 
         "Deaths" : 6, 
         "ObjectId" : 49
+      }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1588309200000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 279, 
+        "Active_Cases" : 38, 
+        "Recoveries" : 235, 
+        "Deaths" : 6, 
+        "ObjectId" : 50
       }
     }
   ]
