@@ -91,13 +91,13 @@
       "attributes" : {
         "under_19" : 22, 
         "_20_39" : 38, 
-        "_40_49" : 38, 
+        "_40_49" : 39, 
         "_50_59" : 56, 
         "_60_69" : 57, 
         "_70_100" : 47, 
-        "percent_female" : 52, 
-        "percent_male" : 48, 
-        "date_updated" : 1587911400000
+        "percent_female" : 53, 
+        "percent_male" : 47, 
+        "date_updated" : 1588343400000
       }
     }
   ]
