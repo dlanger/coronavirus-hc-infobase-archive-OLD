@@ -85,12 +85,12 @@
   "features" : [
     {
       "attributes" : {
-        "Date" : 1588442400000, 
-        "Last_Update" : "May 02, 2020", 
-        "Total_Tests" : 26169, 
-        "Total_Cases" : 280, 
+        "Date" : 1588528800000, 
+        "Last_Update" : "May 03, 2020", 
+        "Total_Tests" : 26806, 
+        "Total_Cases" : 281, 
         "Active_Cases" : 38, 
-        "Recovered" : 236, 
+        "Recovered" : 237, 
         "Deaths" : 6, 
         "New_Cases" : 1, 
         "ObjectId" : 1
