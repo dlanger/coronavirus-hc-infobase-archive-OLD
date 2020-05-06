@@ -1,0 +1,250 @@
+{
+  "objectIdFieldName" : "ObjectId", 
+  "uniqueIdField" : 
+  {
+    "name" : "ObjectId", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "globalid", 
+  "geometryType" : "esriGeometryPolygon", 
+  "spatialReference" : {
+    "wkid" : 4326, 
+    "latestWkid" : 4326
+  }, 
+  "fields" : [
+    {
+      "name" : "name", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "name", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 254, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "RHAShort", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "RHAShort", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "regional_health_authority", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Regional Health Authority", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "cvd_regional_health_authority", 
+        "codedValues" : [
+          {
+            "name" : "Eastern_RHA", 
+            "code" : "eastern_rha"
+          }, 
+          {
+            "name" : "Central_RHA", 
+            "code" : "central_rha"
+          }, 
+          {
+            "name" : "Western_RHA", 
+            "code" : "western_rha"
+          }, 
+          {
+            "name" : "LabradorGrenfell_RHA", 
+            "code" : "labradorgrenfell_rha"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "date_updated", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "Date Updated", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_number_of_cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Total Number of Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "new_cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "New Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "currently_hospitalized", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Currently Hospitalized", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "current_in_icu", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Current in ICU", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_number_recovered", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Total Number Recovered", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_number_of_deaths", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Total Number of Deaths", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "active_cases", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Active Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_people_tested", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Total People Tested", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Population", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Population", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "cvd_Population", 
+        "codedValues" : [
+          {
+            "name" : "32.315", 
+            "code" : "32.315"
+          }, 
+          {
+            "name" : "8.959", 
+            "code" : "8.959"
+          }, 
+          {
+            "name" : "7.414", 
+            "code" : "7.414"
+          }, 
+          {
+            "name" : "3.605", 
+            "code" : "3.605"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CasesPer10KPop", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Cases per 10k Population", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "name" : "Eastern Regional Health Authority", 
+        "RHAShort" : "Eastern_RHA", 
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588698240000, 
+        "total_number_of_cases" : 241, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 224, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 14, 
+        "total_people_tested" : 6674, 
+        "Population" : 32.315, 
+        "CasesPer10KPop" : 7.45783691784001
+      }
+    }, 
+    {
+      "attributes" : {
+        "name" : "Central Regional Health Authority", 
+        "RHAShort" : "Central_RHA", 
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588698420000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 8, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 773, 
+        "Population" : 8.959, 
+        "CasesPer10KPop" : 0.892956803214645
+      }
+    }, 
+    {
+      "attributes" : {
+        "name" : "Western Regional Health Authority", 
+        "RHAShort" : "Western_RHA", 
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588698420000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 1249, 
+        "Population" : 7.414, 
+        "CasesPer10KPop" : 0.539519827353655
+      }
+    }, 
+    {
+      "attributes" : {
+        "name" : "Labrador-Grenfell Regional Health Authority", 
+        "RHAShort" : "LabradorGrenfell_RHA", 
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588698480000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 443, 
+        "Population" : 3.605, 
+        "CasesPer10KPop" : 1.66435506241331
+      }
+    }
+  ]
+}
