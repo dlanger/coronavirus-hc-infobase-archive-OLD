@@ -1,0 +1,3114 @@
+{
+  "objectIdFieldName" : "objectid", 
+  "uniqueIdField" : 
+  {
+    "name" : "objectid", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "globalid", 
+  "geometryType" : "esriGeometryPoint", 
+  "spatialReference" : {
+    "wkid" : 4326, 
+    "latestWkid" : 4326
+  }, 
+  "fields" : [
+    {
+      "name" : "regional_health_authority", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Regional Health Authority", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "cvd_regional_health_authority", 
+        "codedValues" : [
+          {
+            "name" : "Eastern_RHA", 
+            "code" : "eastern_rha"
+          }, 
+          {
+            "name" : "Central_RHA", 
+            "code" : "central_rha"
+          }, 
+          {
+            "name" : "Western_RHA", 
+            "code" : "western_rha"
+          }, 
+          {
+            "name" : "LabradorGrenfell_RHA", 
+            "code" : "labradorgrenfell_rha"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "date_updated", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "Date Updated", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_number_of_cases", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total Number of Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "new_cases", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "New Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "currently_hospitalized", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Currently Hospitalized", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "current_in_icu", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Current in ICU", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_number_recovered", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total Number Recovered", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_number_of_deaths", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total Number of Deaths", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "active_cases", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Active Cases", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "total_people_tested", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Total People Tested", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585161000000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : 1, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1585243800000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1585329300000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585415700000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585502100000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585588500000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585673100000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585759500000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585845900000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1585931400000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586017800000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586107800000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 349
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586194200000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 363
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586280600000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 375
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586366100000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 382
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586454300000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 414
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586550600000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 414
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586625300000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 442
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586709900000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 445
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586805300000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 472
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586885400000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 485
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1586970000000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 488
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1587055500000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 539
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1587142800000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 539
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1587230940000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 569
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Western_RHA", 
+        "date_updated" : 1587317400000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 1, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 628
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585161000000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584741600000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584914400000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585000800000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585087200000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584828000000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584225000000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584484200000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1585243800000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585329300000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585415700000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 4, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585502100000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 4, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584291600000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584378000000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584550800000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1584637200000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585588500000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 4, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585673100000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 4, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585759500000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585845900000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1585931400000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586017800000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586107800000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 235
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586194200000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 235
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586280600000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 253
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586366100000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 258
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586454300000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 272
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586550600000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 272
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586625300000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 288
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586709900000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 288
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586805300000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 294
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586885400000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 301
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1586970000000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 4, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 306
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1587055500000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 317
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1587142800000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 320
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1587230940000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 336
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "LabradorGrenfell_RHA", 
+        "date_updated" : 1587317400000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 338
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585161000000, 
+        "total_number_of_cases" : 61, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 61, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1584741600000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1584914400000, 
+        "total_number_of_cases" : 5, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585000800000, 
+        "total_number_of_cases" : 19, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 19, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585087200000, 
+        "total_number_of_cases" : 30, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 30, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1584828000000, 
+        "total_number_of_cases" : 2, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585243800000, 
+        "total_number_of_cases" : 76, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 76, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585329300000, 
+        "total_number_of_cases" : 95, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 94, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585415700000, 
+        "total_number_of_cases" : 111, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 109, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585502100000, 
+        "total_number_of_cases" : 126, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 5, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 121, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585588500000, 
+        "total_number_of_cases" : 139, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 7, 
+        "total_number_of_deaths" : 1, 
+        "active_cases" : 131, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585673100000, 
+        "total_number_of_cases" : 143, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 7, 
+        "total_number_of_deaths" : 1, 
+        "active_cases" : 135, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585759500000, 
+        "total_number_of_cases" : 166, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 7, 
+        "total_number_of_deaths" : 1, 
+        "active_cases" : 158, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585845900000, 
+        "total_number_of_cases" : 174, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 9, 
+        "total_number_of_deaths" : 1, 
+        "active_cases" : 164, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1585931400000, 
+        "total_number_of_cases" : 186, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 21, 
+        "total_number_of_deaths" : 1, 
+        "active_cases" : 164, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586017800000, 
+        "total_number_of_cases" : 193, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 33, 
+        "total_number_of_deaths" : 1, 
+        "active_cases" : 159, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586107800000, 
+        "total_number_of_cases" : 207, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 41, 
+        "total_number_of_deaths" : 1, 
+        "active_cases" : 165, 
+        "total_people_tested" : 2728
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586194200000, 
+        "total_number_of_cases" : 216, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 52, 
+        "total_number_of_deaths" : 2, 
+        "active_cases" : 162, 
+        "total_people_tested" : 2931
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1586280600000, 
+        "total_number_of_cases" : 217, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 65, 
+        "total_number_of_deaths" : 2, 
+        "active_cases" : 150, 
+        "total_people_tested" : 3076
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586366100000, 
+        "total_number_of_cases" : 219, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 82, 
+        "total_number_of_deaths" : 2, 
+        "active_cases" : 135, 
+        "total_people_tested" : 3243
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586454300000, 
+        "total_number_of_cases" : 221, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 94, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 124, 
+        "total_people_tested" : 3423
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586550600000, 
+        "total_number_of_cases" : 224, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 112, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 109, 
+        "total_people_tested" : 3423
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586625300000, 
+        "total_number_of_cases" : 226, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 122, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 101, 
+        "total_people_tested" : 3679
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586709900000, 
+        "total_number_of_cases" : 227, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 125, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 99, 
+        "total_people_tested" : 3760
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586805300000, 
+        "total_number_of_cases" : 227, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 144, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 80, 
+        "total_people_tested" : 3805
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586886300000, 
+        "total_number_of_cases" : 227, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 154, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 70, 
+        "total_people_tested" : 3890
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1586970000000, 
+        "total_number_of_cases" : 229, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 164, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 62, 
+        "total_people_tested" : 4021
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1587055500000, 
+        "total_number_of_cases" : 234, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 168, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 63, 
+        "total_people_tested" : 4135
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1587142800000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 3, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 180, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 55, 
+        "total_people_tested" : 4342
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1587230880000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 6, 
+        "current_in_icu" : 3, 
+        "total_number_recovered" : 182, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 53, 
+        "total_people_tested" : 4557
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Eastern_RHA", 
+        "date_updated" : 1587317400000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 3, 
+        "total_number_recovered" : 182, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 53, 
+        "total_people_tested" : 4712
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585161000000, 
+        "total_number_of_cases" : 2, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1584914400000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585000800000, 
+        "total_number_of_cases" : 2, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585087200000, 
+        "total_number_of_cases" : 2, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1584828000000, 
+        "total_number_of_cases" : 1, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1585243800000, 
+        "total_number_of_cases" : 2, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585329300000, 
+        "total_number_of_cases" : 2, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 0, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585415700000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585502100000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585588500000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585673100000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585759500000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585845900000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1585931400000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586017800000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586107800000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 244
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586194200000, 
+        "total_number_of_cases" : 3, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 247
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586280600000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 254
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586366100000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 266
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586454300000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 7, 
+        "total_people_tested" : 281
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586550600000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 7, 
+        "total_people_tested" : 281
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586625300000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 7, 
+        "total_people_tested" : 317
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586709900000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 7, 
+        "total_people_tested" : 319
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586805300000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 7, 
+        "total_people_tested" : 336
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586885400000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 7, 
+        "total_people_tested" : 345
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1586970000000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 351
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1587055500000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 379
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1587142800000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : null, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 384
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1587230100000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 409
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "Central_RHA", 
+        "date_updated" : 1587317400000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 466
+      }, 
+      "geometry" : 
+      {
+        "x" : 5.6843418860808015E-14, 
+        "y" : 5.6843418860808015E-14
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1587402840000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 185, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 50, 
+        "total_people_tested" : 4798
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1587402900000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 5, 
+        "total_people_tested" : 466
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1587402900000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 1, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 628
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1587402960000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 357
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1587487200000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 188, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 47, 
+        "total_people_tested" : 4959
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1587487260000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 5, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 469
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1587487320000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 1, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 645
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1587487380000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 358
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1587573720000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 187, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 48, 
+        "total_people_tested" : 5100
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1587573780000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 5, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 518
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1587573840000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 1, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 680
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1587573840000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 364
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1587660300000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 194, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 41, 
+        "total_people_tested" : 5273
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1587660360000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 557
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1587660360000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 704
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1587660420000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 368
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1587746340000, 
+        "total_number_of_cases" : 238, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 194, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 41, 
+        "total_people_tested" : 5420
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1587746400000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 602
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1587746400000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 736
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1587746460000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 376
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1587833220000, 
+        "total_number_of_cases" : 239, 
+        "new_cases" : 1, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 195, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 41, 
+        "total_people_tested" : 5576
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1587833220000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 613
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1587833280000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 1, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 3, 
+        "total_people_tested" : 761
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1587833340000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 382
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1587919380000, 
+        "total_number_of_cases" : 240, 
+        "new_cases" : 1, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 205, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 32, 
+        "total_people_tested" : 5653
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1587919440000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 642
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1587919440000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 800
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1587919500000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 382
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588011720000, 
+        "total_number_of_cases" : 240, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 5, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 207, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 30, 
+        "total_people_tested" : 5733
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588011780000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 649
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588011840000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 880
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588011900000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 399
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588091880000, 
+        "total_number_of_cases" : 240, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 208, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 29, 
+        "total_people_tested" : 5847
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588091940000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 673
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588092000000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 1034
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588092060000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 401
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588181040000, 
+        "total_number_of_cases" : 240, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 211, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 26, 
+        "total_people_tested" : 5999
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588181100000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 704
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588181160000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 1110
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588181160000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 407
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588264200000, 
+        "total_number_of_cases" : 240, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 211, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 26, 
+        "total_people_tested" : 6126
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588264260000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 710
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588264260000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 1131
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588264320000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 409
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588352040000, 
+        "total_number_of_cases" : 241, 
+        "new_cases" : 1, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 1, 
+        "total_number_recovered" : 216, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 22, 
+        "total_people_tested" : 6235
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588353840000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 720
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588353900000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 1178
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588353900000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 419
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588437240000, 
+        "total_number_of_cases" : 241, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 1, 
+        "total_number_recovered" : 217, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 21, 
+        "total_people_tested" : 6358
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588437300000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 733
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588437300000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 2, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 1197
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588437360000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 428
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588523520000, 
+        "total_number_of_cases" : 241, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 217, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 21, 
+        "total_people_tested" : 6429
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588523580000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 751
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588523580000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 1223
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588523580000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 430
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588611480000, 
+        "total_number_of_cases" : 241, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 218, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 20, 
+        "total_people_tested" : 6533
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588611540000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 2, 
+        "total_people_tested" : 759
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588611540000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 1231
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588611600000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 438
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "eastern_rha", 
+        "date_updated" : 1588698240000, 
+        "total_number_of_cases" : 241, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 4, 
+        "current_in_icu" : 2, 
+        "total_number_recovered" : 224, 
+        "total_number_of_deaths" : 3, 
+        "active_cases" : 14, 
+        "total_people_tested" : 6674
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "central_rha", 
+        "date_updated" : 1588698420000, 
+        "total_number_of_cases" : 8, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 8, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 773
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "western_rha", 
+        "date_updated" : 1588698420000, 
+        "total_number_of_cases" : 4, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 3, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 1, 
+        "total_people_tested" : 1249
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }, 
+    {
+      "attributes" : {
+        "regional_health_authority" : "labradorgrenfell_rha", 
+        "date_updated" : 1588698480000, 
+        "total_number_of_cases" : 6, 
+        "new_cases" : 0, 
+        "currently_hospitalized" : 0, 
+        "current_in_icu" : 0, 
+        "total_number_recovered" : 6, 
+        "total_number_of_deaths" : 0, 
+        "active_cases" : 0, 
+        "total_people_tested" : 443
+      }, 
+      "geometry" : 
+      {
+        "x" : 0, 
+        "y" : 0
+      }
+    }
+  ]
+}
