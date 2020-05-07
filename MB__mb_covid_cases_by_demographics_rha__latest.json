@@ -246,7 +246,7 @@
         "Gender" : "Female", 
         "Age_Group" : "20-29", 
         "RHA" : "Winnipeg", 
-        "Total_Cases" : 32, 
+        "Total_Cases" : 31, 
         "ObjectId" : 22
       }
     }, 
@@ -282,7 +282,7 @@
         "Gender" : "Female", 
         "Age_Group" : "20-29", 
         "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 3, 
+        "Total_Cases" : 4, 
         "ObjectId" : 26
       }
     }, 
@@ -516,7 +516,7 @@
         "Gender" : "Female", 
         "Age_Group" : "50-59", 
         "RHA" : "Winnipeg", 
-        "Total_Cases" : 18, 
+        "Total_Cases" : 17, 
         "ObjectId" : 52
       }
     }, 
