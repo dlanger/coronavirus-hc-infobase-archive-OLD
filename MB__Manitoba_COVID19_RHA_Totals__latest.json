@@ -69,9 +69,9 @@
       "attributes" : {
         "RHACODE" : "02", 
         "RHAName" : "Prairie Mountain Health", 
-        "Lab_Confirmed" : 21, 
+        "Lab_Confirmed" : 22, 
         "Probable" : 0, 
-        "Total_Cases" : 21
+        "Total_Cases" : 22
       }
     }, 
     {
