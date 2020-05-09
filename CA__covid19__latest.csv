@@ -926,7 +926,7 @@ pruid,prname,prnameFR,date,numconf,numprob,numdeaths,numtotal,numtested,numrecov
 62,Nunavut,Nunavut,07-05-2020,0,0,0,0,530,0,N/A,1367,0,0.000,0.000
 99,Repatriated travellers,Voyageurs rapatriés,07-05-2020,13,0,,13,76,,,N/A,0,0.000,N/A
 1,Canada,Canada,07-05-2020,64922,0,4408,64922,1005294,29247,45.05,2674,1426,0.022,172.714
-59,British Columbia,Colombie-Britannique,08-05-2020,2315,0,127,2315,89764,1759,75.98,,,,
+59,British Columbia,Colombie-Britannique,08-05-2020,2315,0,127,2315,89764,1579,68.21,,,,
 48,Alberta,Alberta,08-05-2020,6098,0,115,6098,166327,4020,65.92,,,,
 47,Saskatchewan,Saskatchewan,08-05-2020,544,0,6,544,32620,335,61.58,,,,
 46,Manitoba,Manitoba,08-05-2020,284,0,7,284,28742,247,86.97,,,,
@@ -940,4 +940,4 @@ pruid,prname,prnameFR,date,numconf,numprob,numdeaths,numtotal,numtested,numrecov
 61,Northwest Territories,Territoires du Nord-Ouest,08-05-2020,5,0,0,5,1768,5,100.00,,,,
 62,Nunavut,Nunavut,08-05-2020,0,0,0,0,550,0,N/A,,,,
 99,Repatriated travellers,Voyageurs rapatriés,08-05-2020,13,0,,13,76,,,,,,
-1,Canada,Canada,08-05-2020,66434,0,4569,66434,1034905,30406,45.77,,,,
+1,Canada,Canada,08-05-2020,66434,0,4569,66434,1034905,30226,45.50,,,,
