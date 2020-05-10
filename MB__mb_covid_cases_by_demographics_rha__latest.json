@@ -54,542 +54,65 @@
   "features" : [
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 2, 
+        "Gender" : "Female", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 3, 
         "ObjectId" : 1
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 2, 
+        "Gender" : "Male", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
         "ObjectId" : 2
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 0, 
+        "Gender" : "Female", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 3, 
         "ObjectId" : 3
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 1, 
         "ObjectId" : 4
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Interlake-Eastern", 
+        "Gender" : "Female", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Northern", 
         "Total_Cases" : 0, 
         "ObjectId" : 5
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "60-69", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 3, 
         "ObjectId" : 6
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
+        "Gender" : "Female", 
+        "Age_Group" : "60-69", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 2, 
         "ObjectId" : 7
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 8
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 9
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "0-9", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 10
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 11
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 12
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 13
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 14
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 15
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 16
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 17
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 18
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 19
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "10-19", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 20
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 19, 
-        "ObjectId" : 21
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 31, 
-        "ObjectId" : 22
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 23
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 24
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 25
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 4, 
-        "ObjectId" : 26
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 27
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 28
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 29
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "20-29", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 30
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 18, 
-        "ObjectId" : 31
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 20, 
-        "ObjectId" : 32
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 33
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 34
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 35
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 36
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 37
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 38
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 6, 
-        "ObjectId" : 39
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "30-39", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 40
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 15, 
-        "ObjectId" : 41
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 17, 
-        "ObjectId" : 42
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 43
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 44
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 45
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 46
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 47
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 48
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 49
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "40-49", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 50
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 14, 
-        "ObjectId" : 51
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 17, 
-        "ObjectId" : 52
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 53
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 54
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 55
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 56
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 1, 
-        "ObjectId" : 57
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 58
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 59
-      }
-    }, 
-    {
-      "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "50-59", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
-        "ObjectId" : 60
       }
     }, 
     {
@@ -598,7 +121,7 @@
         "Age_Group" : "60-69", 
         "RHA" : "Winnipeg", 
         "Total_Cases" : 16, 
-        "ObjectId" : 61
+        "ObjectId" : 8
       }
     }, 
     {
@@ -607,7 +130,7 @@
         "Age_Group" : "60-69", 
         "RHA" : "Winnipeg", 
         "Total_Cases" : 13, 
-        "ObjectId" : 62
+        "ObjectId" : 9
       }
     }, 
     {
@@ -616,7 +139,7 @@
         "Age_Group" : "60-69", 
         "RHA" : "Southern Health-Santé Sud", 
         "Total_Cases" : 5, 
-        "ObjectId" : 63
+        "ObjectId" : 10
       }
     }, 
     {
@@ -625,7 +148,7 @@
         "Age_Group" : "60-69", 
         "RHA" : "Southern Health-Santé Sud", 
         "Total_Cases" : 2, 
-        "ObjectId" : 64
+        "ObjectId" : 11
       }
     }, 
     {
@@ -634,7 +157,7 @@
         "Age_Group" : "60-69", 
         "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 4, 
-        "ObjectId" : 65
+        "ObjectId" : 12
       }
     }, 
     {
@@ -643,7 +166,7 @@
         "Age_Group" : "60-69", 
         "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 2, 
-        "ObjectId" : 66
+        "ObjectId" : 13
       }
     }, 
     {
@@ -652,7 +175,7 @@
         "Age_Group" : "60-69", 
         "RHA" : "Northern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 67
+        "ObjectId" : 14
       }
     }, 
     {
@@ -661,25 +184,25 @@
         "Age_Group" : "60-69", 
         "RHA" : "Northern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 68
+        "ObjectId" : 15
       }
     }, 
     {
       "attributes" : {
         "Gender" : "Male", 
-        "Age_Group" : "60-69", 
+        "Age_Group" : "70-79", 
         "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 3, 
-        "ObjectId" : 69
+        "Total_Cases" : 0, 
+        "ObjectId" : 16
       }
     }, 
     {
       "attributes" : {
         "Gender" : "Female", 
-        "Age_Group" : "60-69", 
+        "Age_Group" : "70-79", 
         "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 2, 
-        "ObjectId" : 70
+        "Total_Cases" : 0, 
+        "ObjectId" : 17
       }
     }, 
     {
@@ -688,7 +211,7 @@
         "Age_Group" : "70-79", 
         "RHA" : "Winnipeg", 
         "Total_Cases" : 6, 
-        "ObjectId" : 71
+        "ObjectId" : 18
       }
     }, 
     {
@@ -697,7 +220,7 @@
         "Age_Group" : "70-79", 
         "RHA" : "Winnipeg", 
         "Total_Cases" : 7, 
-        "ObjectId" : 72
+        "ObjectId" : 19
       }
     }, 
     {
@@ -706,7 +229,7 @@
         "Age_Group" : "70-79", 
         "RHA" : "Southern Health-Santé Sud", 
         "Total_Cases" : 1, 
-        "ObjectId" : 73
+        "ObjectId" : 20
       }
     }, 
     {
@@ -715,7 +238,7 @@
         "Age_Group" : "70-79", 
         "RHA" : "Southern Health-Santé Sud", 
         "Total_Cases" : 1, 
-        "ObjectId" : 74
+        "ObjectId" : 21
       }
     }, 
     {
@@ -724,7 +247,7 @@
         "Age_Group" : "70-79", 
         "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 1, 
-        "ObjectId" : 75
+        "ObjectId" : 22
       }
     }, 
     {
@@ -733,7 +256,7 @@
         "Age_Group" : "70-79", 
         "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 2, 
-        "ObjectId" : 76
+        "ObjectId" : 23
       }
     }, 
     {
@@ -742,7 +265,7 @@
         "Age_Group" : "70-79", 
         "RHA" : "Northern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 77
+        "ObjectId" : 24
       }
     }, 
     {
@@ -751,25 +274,25 @@
         "Age_Group" : "70-79", 
         "RHA" : "Northern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 78
+        "ObjectId" : 25
       }
     }, 
     {
       "attributes" : {
         "Gender" : "Male", 
-        "Age_Group" : "70-79", 
+        "Age_Group" : "80-89", 
         "RHA" : "Prairie Mountain Health", 
         "Total_Cases" : 0, 
-        "ObjectId" : 79
+        "ObjectId" : 26
       }
     }, 
     {
       "attributes" : {
         "Gender" : "Female", 
-        "Age_Group" : "70-79", 
+        "Age_Group" : "80-89", 
         "RHA" : "Prairie Mountain Health", 
         "Total_Cases" : 0, 
-        "ObjectId" : 80
+        "ObjectId" : 27
       }
     }, 
     {
@@ -778,7 +301,7 @@
         "Age_Group" : "80-89", 
         "RHA" : "Winnipeg", 
         "Total_Cases" : 3, 
-        "ObjectId" : 81
+        "ObjectId" : 28
       }
     }, 
     {
@@ -787,7 +310,7 @@
         "Age_Group" : "80-89", 
         "RHA" : "Winnipeg", 
         "Total_Cases" : 4, 
-        "ObjectId" : 82
+        "ObjectId" : 29
       }
     }, 
     {
@@ -796,7 +319,7 @@
         "Age_Group" : "80-89", 
         "RHA" : "Southern Health-Santé Sud", 
         "Total_Cases" : 0, 
-        "ObjectId" : 83
+        "ObjectId" : 30
       }
     }, 
     {
@@ -805,7 +328,7 @@
         "Age_Group" : "80-89", 
         "RHA" : "Southern Health-Santé Sud", 
         "Total_Cases" : 0, 
-        "ObjectId" : 84
+        "ObjectId" : 31
       }
     }, 
     {
@@ -814,7 +337,7 @@
         "Age_Group" : "80-89", 
         "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 85
+        "ObjectId" : 32
       }
     }, 
     {
@@ -823,7 +346,7 @@
         "Age_Group" : "80-89", 
         "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 86
+        "ObjectId" : 33
       }
     }, 
     {
@@ -832,7 +355,7 @@
         "Age_Group" : "80-89", 
         "RHA" : "Northern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 87
+        "ObjectId" : 34
       }
     }, 
     {
@@ -841,25 +364,25 @@
         "Age_Group" : "80-89", 
         "RHA" : "Northern", 
         "Total_Cases" : 0, 
-        "ObjectId" : 88
+        "ObjectId" : 35
       }
     }, 
     {
       "attributes" : {
         "Gender" : "Male", 
-        "Age_Group" : "80-89", 
+        "Age_Group" : "90-99", 
         "RHA" : "Prairie Mountain Health", 
         "Total_Cases" : 0, 
-        "ObjectId" : 89
+        "ObjectId" : 36
       }
     }, 
     {
       "attributes" : {
         "Gender" : "Female", 
-        "Age_Group" : "80-89", 
+        "Age_Group" : "90-99", 
         "RHA" : "Prairie Mountain Health", 
         "Total_Cases" : 0, 
-        "ObjectId" : 90
+        "ObjectId" : 37
       }
     }, 
     {
@@ -868,7 +391,7 @@
         "Age_Group" : "90-99", 
         "RHA" : "Winnipeg", 
         "Total_Cases" : 1, 
-        "ObjectId" : 91
+        "ObjectId" : 38
       }
     }, 
     {
@@ -876,169 +399,646 @@
         "Gender" : "Female", 
         "Age_Group" : "90-99", 
         "RHA" : "Winnipeg", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 39
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "90-99", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 40
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "90-99", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 41
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "90-99", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 42
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "90-99", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 43
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "90-99", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 44
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "90-99", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 45
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "99+", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 46
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "99+", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 47
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "99+", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 48
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "99+", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 49
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "99+", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 50
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "99+", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 51
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "99+", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 52
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "99+", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 53
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "99+", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "99+", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 1, 
+        "ObjectId" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 1, 
+        "ObjectId" : 57
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 2, 
+        "ObjectId" : 58
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 2, 
+        "ObjectId" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 61
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 62
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 63
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 64
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "0-9", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 65
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 66
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 67
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 1, 
+        "ObjectId" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 3, 
+        "ObjectId" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 3, 
+        "ObjectId" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 2, 
+        "ObjectId" : 71
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 1, 
+        "ObjectId" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "10-19", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 3, 
+        "ObjectId" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 1, 
+        "ObjectId" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 19, 
+        "ObjectId" : 78
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 31, 
+        "ObjectId" : 79
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 3, 
+        "ObjectId" : 80
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 81
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 1, 
+        "ObjectId" : 82
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 4, 
+        "ObjectId" : 83
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 0, 
+        "ObjectId" : 84
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "20-29", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 1, 
+        "ObjectId" : 85
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 6, 
+        "ObjectId" : 86
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 3, 
+        "ObjectId" : 87
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 18, 
+        "ObjectId" : 88
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 20, 
+        "ObjectId" : 89
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 2, 
+        "ObjectId" : 90
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Female", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 2, 
+        "ObjectId" : 91
+      }
+    }, 
+    {
+      "attributes" : {
+        "Gender" : "Male", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 0, 
         "ObjectId" : 92
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 0, 
+        "Gender" : "Female", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 1, 
         "ObjectId" : 93
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Northern", 
+        "Total_Cases" : 1, 
         "ObjectId" : 94
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Interlake-Eastern", 
+        "Gender" : "Female", 
+        "Age_Group" : "30-39", 
+        "RHA" : "Northern", 
         "Total_Cases" : 0, 
         "ObjectId" : 95
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 2, 
         "ObjectId" : 96
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Northern", 
+        "Gender" : "Female", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Prairie Mountain Health", 
         "Total_Cases" : 0, 
         "ObjectId" : 97
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 16, 
         "ObjectId" : 98
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
+        "Gender" : "Female", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 17, 
         "ObjectId" : 99
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "90-99", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 1, 
         "ObjectId" : 100
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "99+", 
-        "RHA" : "Winnipeg", 
-        "Total_Cases" : 0, 
+        "Gender" : "Female", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 2, 
         "ObjectId" : 101
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "99+", 
-        "RHA" : "Winnipeg", 
+        "Gender" : "Male", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Interlake-Eastern", 
         "Total_Cases" : 0, 
         "ObjectId" : 102
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "99+", 
-        "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 0, 
+        "Gender" : "Female", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Interlake-Eastern", 
+        "Total_Cases" : 1, 
         "ObjectId" : 103
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "99+", 
-        "RHA" : "Southern Health-Santé Sud", 
+        "Gender" : "Male", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Northern", 
         "Total_Cases" : 0, 
         "ObjectId" : 104
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "99+", 
-        "RHA" : "Interlake-Eastern", 
+        "Gender" : "Female", 
+        "Age_Group" : "40-49", 
+        "RHA" : "Northern", 
         "Total_Cases" : 0, 
         "ObjectId" : 105
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "99+", 
-        "RHA" : "Interlake-Eastern", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Prairie Mountain Health", 
+        "Total_Cases" : 2, 
         "ObjectId" : 106
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "99+", 
-        "RHA" : "Northern", 
+        "Gender" : "Female", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Prairie Mountain Health", 
         "Total_Cases" : 0, 
         "ObjectId" : 107
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "99+", 
-        "RHA" : "Northern", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 14, 
         "ObjectId" : 108
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Male", 
-        "Age_Group" : "99+", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
+        "Gender" : "Female", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Winnipeg", 
+        "Total_Cases" : 17, 
         "ObjectId" : 109
       }
     }, 
     {
       "attributes" : {
-        "Gender" : "Female", 
-        "Age_Group" : "99+", 
-        "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
+        "Gender" : "Male", 
+        "Age_Group" : "50-59", 
+        "RHA" : "Southern Health-Santé Sud", 
+        "Total_Cases" : 3, 
         "ObjectId" : 110
       }
     }
