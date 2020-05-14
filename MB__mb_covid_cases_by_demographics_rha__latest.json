@@ -156,7 +156,7 @@
         "Gender" : "Female", 
         "Age_Group" : "10-19", 
         "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 1, 
+        "Total_Cases" : 0, 
         "ObjectId" : 12
       }
     }, 
@@ -345,7 +345,7 @@
         "Gender" : "Male", 
         "Age_Group" : "30-39", 
         "RHA" : "Winnipeg", 
-        "Total_Cases" : 19, 
+        "Total_Cases" : 18, 
         "ObjectId" : 33
       }
     }, 
@@ -435,7 +435,7 @@
         "Gender" : "Male", 
         "Age_Group" : "40-49", 
         "RHA" : "Winnipeg", 
-        "Total_Cases" : 16, 
+        "Total_Cases" : 17, 
         "ObjectId" : 43
       }
     }, 
