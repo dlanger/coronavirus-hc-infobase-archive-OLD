@@ -1,100 +1,11 @@
+
 {
-  "objectIdFieldName" : "ObjectId", 
-  "uniqueIdField" : 
+  "error" : 
   {
-    "name" : "ObjectId", 
-    "isSystemMaintained" : true
-  }, 
-  "globalIdFieldName" : "", 
-  "fields" : [
-    {
-      "name" : "Date", 
-      "type" : "esriFieldTypeDate", 
-      "alias" : "Date", 
-      "sqlType" : "sqlTypeTimestamp2", 
-      "length" : 8, 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "Last_Update", 
-      "type" : "esriFieldTypeString", 
-      "alias" : "Last Update", 
-      "sqlType" : "sqlTypeNVarchar", 
-      "length" : 256, 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "Total_Tests", 
-      "type" : "esriFieldTypeInteger", 
-      "alias" : "Total Tests", 
-      "sqlType" : "sqlTypeInteger", 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "Total_Cases", 
-      "type" : "esriFieldTypeInteger", 
-      "alias" : "Total Cases", 
-      "sqlType" : "sqlTypeInteger", 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "Active_Cases", 
-      "type" : "esriFieldTypeInteger", 
-      "alias" : "Active Cases", 
-      "sqlType" : "sqlTypeInteger", 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "Recovered", 
-      "type" : "esriFieldTypeInteger", 
-      "alias" : "Recovered", 
-      "sqlType" : "sqlTypeInteger", 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "Deaths", 
-      "type" : "esriFieldTypeInteger", 
-      "alias" : "Deaths", 
-      "sqlType" : "sqlTypeInteger", 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "New_Cases", 
-      "type" : "esriFieldTypeInteger", 
-      "alias" : "New Cases", 
-      "sqlType" : "sqlTypeInteger", 
-      "domain" : null, 
-      "defaultValue" : null
-    }, 
-    {
-      "name" : "ObjectId", 
-      "type" : "esriFieldTypeOID", 
-      "alias" : "ObjectId", 
-      "sqlType" : "sqlTypeInteger", 
-      "domain" : null, 
-      "defaultValue" : null
-    }
-  ], 
-  "features" : [
-    {
-      "attributes" : {
-        "Date" : 1589392800000, 
-        "Last_Update" : "May 13, 2020", 
-        "Total_Tests" : 31946, 
-        "Total_Cases" : 290, 
-        "Active_Cases" : 32, 
-        "Recovered" : 251, 
-        "Deaths" : 7, 
-        "New_Cases" : 0, 
-        "ObjectId" : 1
-      }
-    }
-  ]
+    "code" : 500, 
+    "message" : "Unauthorized access", 
+    "details" : [
+      "Unauthorized access"
+    ]
+  }
 }
