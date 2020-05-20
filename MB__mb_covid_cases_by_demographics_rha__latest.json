@@ -606,7 +606,7 @@
         "Gender" : "Female", 
         "Age_Group" : "60-69", 
         "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 2, 
+        "Total_Cases" : 1, 
         "ObjectId" : 62
       }
     }, 
@@ -696,7 +696,7 @@
         "Gender" : "Female", 
         "Age_Group" : "70-79", 
         "RHA" : "Prairie Mountain Health", 
-        "Total_Cases" : 0, 
+        "Total_Cases" : 1, 
         "ObjectId" : 72
       }
     }, 
