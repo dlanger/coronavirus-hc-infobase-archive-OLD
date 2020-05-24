@@ -857,6 +857,17 @@
         "Deaths" : 7, 
         "ObjectId" : 72
       }
+    }, 
+    {
+      "attributes" : {
+        "Date" : 1590296400000, 
+        "Daily_Cases" : 0, 
+        "Cumulative_Cases" : 292, 
+        "Active_Cases" : 17, 
+        "Recoveries" : 268, 
+        "Deaths" : 7, 
+        "ObjectId" : 73
+      }
     }
   ]
 }
