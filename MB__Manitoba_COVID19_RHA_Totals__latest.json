@@ -60,9 +60,9 @@
       "attributes" : {
         "RHACODE" : "01", 
         "RHAName" : "Winnipeg", 
-        "Lab_Confirmed" : 209, 
+        "Lab_Confirmed" : 211, 
         "Probable" : 4, 
-        "Total_Cases" : 213
+        "Total_Cases" : 215
       }
     }, 
     {
