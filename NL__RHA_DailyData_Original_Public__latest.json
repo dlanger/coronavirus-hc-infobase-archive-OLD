@@ -4707,7 +4707,7 @@
         "total_number_of_cases" : 243, 
         "new_cases" : 0, 
         "currently_hospitalized" : 1, 
-        "current_in_icu" : 1, 
+        "current_in_icu" : 0, 
         "total_number_recovered" : 237, 
         "total_number_of_deaths" : 3, 
         "active_cases" : 3, 
