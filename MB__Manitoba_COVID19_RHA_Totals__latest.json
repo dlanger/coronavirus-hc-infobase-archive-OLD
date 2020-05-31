@@ -87,9 +87,9 @@
       "attributes" : {
         "RHACODE" : "05", 
         "RHAName" : "Southern Health-Santé Sud", 
-        "Lab_Confirmed" : 25, 
+        "Lab_Confirmed" : 26, 
         "Probable" : 5, 
-        "Total_Cases" : 30
+        "Total_Cases" : 31
       }
     }, 
     {
