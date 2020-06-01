@@ -30,6 +30,7 @@ jobs:
       run: |-
         # CA
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19.csv -o CA__covid19__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-data-dictionary.csv -o CA__covid19_dictionary__latest.csv
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv -o CA__covid19-epiSummary-casesovertime__latest.csv 
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv -o CA__covid19-epiSummary-agegroups2__latest.csv 
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv -o CA__covid19-epiSummary-probableexposure__latest.csv
@@ -62,11 +63,11 @@ jobs:
     - name: Fetch table 13-10-0766-01
       run: |-
         # CA
-        conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip
-        unzip 13100766-eng.zip
-        mv 13100766.csv CA__13100766__latest.csv
-        mv 13100766_MetaData.csv CA__13100766_MetaData.csv__latest.csv
-        rm 13100766-eng.zip
+        conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100781-eng.zip
+        unzip 13100781-eng.zip
+        mv 13100781.csv CA__13100781__latest.csv
+        mv 13100781_MetaData.csv CA__13100781_MetaData.csv__latest.csv
+        rm 13100781-eng.zip
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
