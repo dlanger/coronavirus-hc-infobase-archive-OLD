@@ -543,7 +543,7 @@
         "Gender" : "Male", 
         "Age_Group" : "50-59", 
         "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 4, 
+        "Total_Cases" : 3, 
         "ObjectId" : 55
       }
     }, 
@@ -633,7 +633,7 @@
         "Gender" : "Male", 
         "Age_Group" : "60-69", 
         "RHA" : "Southern Health-Santé Sud", 
-        "Total_Cases" : 5, 
+        "Total_Cases" : 6, 
         "ObjectId" : 65
       }
     }, 
