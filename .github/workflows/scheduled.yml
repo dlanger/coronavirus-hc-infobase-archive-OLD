@@ -70,6 +70,14 @@ jobs:
         mv 13100781.csv CA__13100781__latest.csv
         mv 13100781_MetaData.csv CA__13100781_MetaData.csv__latest.csv
         rm 13100781-eng.zip
+    - name: Fetch table 13-10-0775-01
+      run: |-
+        # CA
+        conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip
+        unzip 13100775-eng.zip
+        mv 13100775.csv CA__13100775__latest.csv
+        mv 13100775_MetaData.csv CA__13100775_MetaData.csv__latest.csv
+        rm 13100775-eng.zip
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
