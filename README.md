@@ -18,4 +18,4 @@ Backing up data from [Health Canada Infobase](https://www.canada.ca/en/public-he
 * MB: https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771
 * NL: https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/
 
-Heavily based on https://github.com/simonw/coronavirus-data-gov-archive.
+Forked from https://github.com/simonw/coronavirus-data-gov-archive.
