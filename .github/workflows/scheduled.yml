@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
+      with:
+        lfs: true
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
@@ -30,6 +32,7 @@ jobs:
       run: |-
         # CA
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19.csv -o CA__covid19__latest.csv 
+        conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-data-dictionary.csv -o CA__covid19_dictionary__latest.csv
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv -o CA__covid19-epiSummary-casesovertime__latest.csv 
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv -o CA__covid19-epiSummary-agegroups2__latest.csv 
         conditional-get -v https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure.csv -o CA__covid19-epiSummary-probableexposure__latest.csv
@@ -59,14 +62,22 @@ jobs:
         conditional-get -v "https://services8.arcgis.com/aCyQID5qQcyrJMm2/ArcGIS/rest/services/RHA_DailyData_Original_Public/FeatureServer/0/query?where=ObjectID%3E0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=regional_health_authority%2Cdate_updated%2Ctotal_number_of_cases%2Cnew_cases%2Ccurrently_hospitalized%2Ccurrent_in_icu%2Ctotal_number_recovered%2Ctotal_number_of_deaths%2Cactive_cases%2Ctotal_people_tested%2CPopulation%2CCasesPer10KPop&returnGeometry=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=" -o NL__RHA_DailyData_Original_Public__latest.json
         conditional-get -v "https://services8.arcgis.com/aCyQID5qQcyrJMm2/ArcGIS/rest/services/RHA_CurrentStats2_Public2/FeatureServer/0/query?where=ObjectID%3E0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=name%2CRHAShort%2Cregional_health_authority%2Cdate_updated%2Ctotal_number_of_cases%2Cnew_cases%2Ccurrently_hospitalized%2Ccurrent_in_icu%2Ctotal_number_recovered%2Ctotal_number_of_deaths%2Cactive_cases%2Ctotal_people_tested%2CPopulation%2CCasesPer10KPop&returnGeometry=false&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=" -o NL__RHA_CurrentStats2_Public2__latest.json
         conditional-get -v "https://services8.arcgis.com/aCyQID5qQcyrJMm2/ArcGIS/rest/services/RHA_CurrentStats2_Public/FeatureServer/0/query?where=ObjectID%3E0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=name%2CRHAShort%2Cregional_health_authority%2Cdate_updated%2Ctotal_number_of_cases%2Cnew_cases%2Ccurrently_hospitalized%2Ccurrent_in_icu%2Ctotal_number_recovered%2Ctotal_number_of_deaths%2Cactive_cases%2Ctotal_people_tested&returnGeometry=false&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=" -o NL__RHA_CurrentStats2_Public__latest.json
-    - name: Fetch table 13-10-0766-01
+    - name: Fetch table 13-10-0781-01
       run: |-
         # CA
-        conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100766-eng.zip
-        unzip 13100766-eng.zip
-        mv 13100766.csv CA__13100766__latest.csv
-        mv 13100766_MetaData.csv CA__13100766_MetaData.csv__latest.csv
-        rm 13100766-eng.zip
+        conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100781-eng.zip
+        unzip 13100781-eng.zip
+        mv 13100781.csv CA__13100781__latest.csv
+        mv 13100781_MetaData.csv CA__13100781_MetaData.csv__latest.csv
+        rm 13100781-eng.zip
+    - name: Fetch table 13-10-0775-01
+      run: |-
+        # CA
+        conditional-get -v https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip
+        unzip 13100775-eng.zip
+        mv 13100775.csv CA__13100775__latest.csv
+        mv 13100775_MetaData.csv CA__13100775_MetaData.csv__latest.csv
+        rm 13100775-eng.zip
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
